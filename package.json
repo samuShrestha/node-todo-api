@@ -4,8 +4,12 @@
   "description": "This is just a test for vim...",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec 'npm test'"
+  },
+  "engines": {
+    "node": "8.7.0"
   },
   "author": "Samu Shrestha",
   "license": "ISC",
